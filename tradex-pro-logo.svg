@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="96" viewBox="0 0 420 96" role="img" aria-label="TradeX Pro">
+<defs>
+  <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f4f8ff"/><stop offset=".48" stop-color="#c9d7e6"/><stop offset="1" stop-color="#8fa8be"/></linearGradient>
+  <linearGradient id="a" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#00b978"/><stop offset=".5" stop-color="#35f0a3"/><stop offset="1" stop-color="#20a8ff"/></linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<g transform="translate(4 8)">
+  <circle cx="40" cy="40" r="36" fill="#07121c" stroke="#1c6f91" stroke-width="2" opacity=".95"/>
+  <path d="M15 60 L29 28 L42 47 L59 17 L76 17 L53 49 L42 34 L28 67 Z" fill="url(#g)" opacity=".98"/>
+  <path d="M45 55 L78 22 L69 21 L87 9 L83 29 L76 23 L51 64 Z" fill="url(#a)" filter="url(#glow)"/>
+</g>
+<text x="102" y="61" font-family="Arial, Helvetica, sans-serif" font-size="44" font-weight="800" letter-spacing="-1.5"><tspan fill="#f4f8ff">TradeX</tspan><tspan fill="url(#a)"> Pro</tspan></text>
+</svg>
